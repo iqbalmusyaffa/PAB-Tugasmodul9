@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "NoteApp",
+    "slug": "NoteApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icontodo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icontodo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.iqbalmusyaffa.NoteApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b71906ee-3993-49c0-8610-684669e6c54c"
+      }
+    }
+  }
+}
